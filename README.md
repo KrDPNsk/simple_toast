@@ -9,24 +9,24 @@ How to use?
 
 • For display a toast notification, use next code:
 
-  showToast(text[, {duration = dur, gravity = grav}])
+	showToast(text[, {duration = dur, gravity = grav}])
   
   where:	
 	
     text - your text for notification;
 		
-	dur - "short" (1500 ms), "normal" (3000 ms), "long" (5000 ms);
+		dur - "short" (1500 ms), "normal" (3000 ms), "long" (5000 ms);
 		
     grav - "top", "center", "bottom";
     
 For example:
 
-  require "toast"
-  
-  -- Your code
-  
-  showToast("Hello!", {duration = "long", gravity = "bottom"})
-  
-  -- or wihtout options (then duration = "normal" and gravity = "center"): 
-  
-  showToast("Hello!")
+	require "toast"
+	
+	-- Your code
+	
+	showToast("Hello!", {duration = "long", gravity = "bottom"})
+	
+	-- or wihtout options (then duration = "normal" and gravity = "center"):
+	
+	showToast("Hello!")
