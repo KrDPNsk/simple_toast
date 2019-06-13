@@ -14,8 +14,8 @@ How to use?
   where:	
 	
     text - your text for notification;
-		
-		dur - "short" (1500 ms), "normal" (3000 ms), "long" (5000 ms);
+    
+    dur - "short" (1500 ms), "normal" (3000 ms), "long" (5000 ms);
 		
     grav - "top", "center", "bottom";
     
