@@ -7,7 +7,7 @@ How to use?
 
 • Add string 'require "toast"' in main.lua
 
-• For call toast notification, use next code:
+• For display a toast notification, use next code:
 
   showToast(text[, {duration = dur, gravity = grav}])
   
